@@ -5,7 +5,7 @@ use Ebay\DigitalSignature\Signature;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\GuzzleException;
 
-$signature = new Signature(__DIR__."/example-config.json");
+$signature = new Signature(__DIR__."/config.json");
 $endpoint = 'https://apiz.sandbox.ebay.com/sell/finances/v1/transaction';
 $headers = [
     'Authorization'           => 'Bearer v^1.1#i^1#I^3#r^1#p^3#f^0#t^Ul4xMF85OkUxNzdBQ0I5QjE2NjNERTY2ODQ4NTVGODQ3MTE5NDU1XzBfMSNFXjEyODQ=',

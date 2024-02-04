@@ -1,3 +1,4 @@
 *
-!ed25519
-!rsa
+!ed25519/
+!rsa/
+!.gitignore
